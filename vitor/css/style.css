@@ -1,8 +1,10 @@
+/*
 * {
     margin: 0;
     padding: 0;
     border: 0;
 }
+*/
 body {
     background-color: #CCCCCC;
 }
@@ -26,20 +28,20 @@ footer {
     padding: 8px;
 }
 
-#imagem-robo {
-    width: 320px;
-    height: 240px;
+img, video {
+    max-width: 100%
 }
 
-#redes-sociais {
-    width: 64px;
+nav {
+    background-color: #000000;
+    height: 35px;
+    font-family: Verdana;
+    font-weight:bold;
+    font-size: 14px;
 }
 
-#diagrama {
-    width: 400px;
-    height: 430px;
-}
-#img-projetos {
-    width: 320px;
-    height: 240px;
+nav ul {
+    height: auto;
+    padding: 8px;
+    list-style: none;
 }
