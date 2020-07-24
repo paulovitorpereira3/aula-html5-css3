@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 body {
     background-color: #CCCCCC;
 }
@@ -22,6 +27,19 @@ footer {
 }
 
 #imagem-robo {
+    width: 320px;
+    height: 240px;
+}
+
+#redes-sociais {
+    width: 64px;
+}
+
+#diagrama {
+    width: 400px;
+    height: 430px;
+}
+#img-projetos {
     width: 320px;
     height: 240px;
 }
